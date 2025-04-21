@@ -7,7 +7,7 @@ export default function About() {
       <div className="flex flex-col md:flex-row items-center gap-10">
         <div className="w-[150px] h-[150px] rounded-full overflow-hidden shadow-card border-4 border-adventure flex-shrink-0 mx-auto md:mx-0">
           <img
-            src="https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=400&q=80"
+            src="/lovable-uploads/4b26e98d-f4b4-4588-ae0b-9f8efe82ed77.png"
             alt="Imax Media profile"
             className="w-full h-full object-cover"
             loading="lazy"
