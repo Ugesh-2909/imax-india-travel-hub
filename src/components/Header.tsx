@@ -1,5 +1,5 @@
 
-import { Youtube, Instagram, MapPin } from "lucide-react";
+import { Youtube, Instagram } from "lucide-react";
 
 export default function Header() {
   return (
@@ -7,10 +7,11 @@ export default function Header() {
       <div className="container flex justify-between items-center py-3">
         <div className="flex items-center gap-3">
           <img
-            src="https://yt3.googleusercontent.com/EWG79Eid_bBaSKXA5KA9g7F54AmSTnDN8Z8Ez2a5FfXTt5E2v4FT4g31jx8I0S_l7V9rD-JLt7U=s176-c-k-c0x00ffffff-no-rj"
+            src="/public/lovable-uploads/4b26e98d-f4b4-4588-ae0b-9f8efe82ed77.png"
             alt="Imax Media logo"
             className="h-10 w-10 rounded-full border-2 border-adventure bg-white"
             style={{ objectFit: "cover" }}
+            loading="lazy"
           />
           <span className="font-montserrat font-bold text-2xl text-adventure tracking-tight">Imax Media</span>
           <span className="hidden md:inline-flex bg-sunset text-white rounded-full px-2 py-1 ml-3 text-xs font-semibold">295k+ Subscribers</span>

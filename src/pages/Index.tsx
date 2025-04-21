@@ -1,9 +1,8 @@
 
-// Imax Media: Simple professional landing page for adventure travel channel
-
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
+import Banner from "@/components/Banner";
 import FeaturedVlog from "@/components/FeaturedVlog";
 import Destinations from "@/components/Destinations";
 import Footer from "@/components/Footer";
@@ -14,6 +13,7 @@ const Index = () => {
       <Header />
       <main>
         <Hero />
+        <Banner />
         <About />
         <FeaturedVlog />
         <Destinations />
