@@ -5,7 +5,13 @@ export default function Header() {
   return (
     <header className="bg-white shadow-sm sticky top-0 z-30">
       <div className="container flex justify-between items-center py-3">
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-3">
+          <img
+            src="https://yt3.googleusercontent.com/ytc/AIdro_kt9URmT_aTfRjqVjuyb465bbUR7FwZ2HWX-NLojw=s176-c-k-c0x00ffffff-no-rj"
+            alt="Imax Media logo"
+            className="h-10 w-10 rounded-full border-2 border-adventure bg-white"
+            style={{ objectFit: "cover" }}
+          />
           <span className="font-montserrat font-bold text-2xl text-adventure tracking-tight">Imax Media</span>
           <span className="hidden md:inline-flex bg-sunset text-white rounded-full px-2 py-1 ml-3 text-xs font-semibold">295k+ Subscribers</span>
         </div>
@@ -32,3 +38,4 @@ export default function Header() {
     </header>
   );
 }
+
