@@ -5,11 +5,10 @@ export default function FeaturedVlog() {
       <div className="container max-w-3xl">
         <h3 className="font-montserrat font-bold text-adventure text-2xl md:text-3xl text-center mb-6">Watch the Adventure</h3>
         <div className="aspect-video rounded-2xl overflow-hidden shadow-card border-4 border-adventure mx-auto animate-fade-in-up">
-          {/* Static example video embed (replace src with real video as needed) */}
           <iframe
             width="100%"
             height="100%"
-            src="https://www.youtube.com/embed/NyWe_dwKj9M"
+            src="https://www.youtube.com/embed/xm_9xw4g8AM"
             title="Imax Media - Latest Adventure Vlog"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen

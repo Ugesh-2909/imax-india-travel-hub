@@ -7,7 +7,7 @@ export default function Header() {
       <div className="container flex justify-between items-center py-3">
         <div className="flex items-center gap-3">
           <img
-            src="https://yt3.googleusercontent.com/ytc/AIdro_kt9URmT_aTfRjqVjuyb465bbUR7FwZ2HWX-NLojw=s176-c-k-c0x00ffffff-no-rj"
+            src="https://yt3.googleusercontent.com/EWG79Eid_bBaSKXA5KA9g7F54AmSTnDN8Z8Ez2a5FfXTt5E2v4FT4g31jx8I0S_l7V9rD-JLt7U=s176-c-k-c0x00ffffff-no-rj"
             alt="Imax Media logo"
             className="h-10 w-10 rounded-full border-2 border-adventure bg-white"
             style={{ objectFit: "cover" }}
@@ -24,7 +24,7 @@ export default function Header() {
           <a href="#contact" className="hover:text-adventure transition-colors">Contact</a>
         </nav>
         <div className="flex items-center gap-3">
-          <a href="https://youtube.com/@imaxmedia" target="_blank" rel="noopener" aria-label="Imax Media YouTube">
+          <a href="https://youtube.com/channel/UChRSWoRFDHELm4xjfinM_yA" target="_blank" rel="noopener" aria-label="Imax Media YouTube">
             <Youtube size={22} className="text-adventure hover:scale-110 transition-transform" />
           </a>
           <a href="https://instagram.com/imaxmedia_" target="_blank" rel="noopener" aria-label="Imax Media Instagram">
@@ -38,4 +38,3 @@ export default function Header() {
     </header>
   );
 }
-
