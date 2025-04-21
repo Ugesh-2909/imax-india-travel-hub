@@ -29,6 +29,11 @@ export default {
         forest: '#4E9F3D',
         dark: '#333333',
         light: '#F5F5F5',
+        border: "hsl(var(--border))",
+        input: "hsl(var(--input))",
+        ring: "hsl(var(--ring))",
+        background: "hsl(var(--background))",
+        foreground: "hsl(var(--foreground))",
       },
       boxShadow: {
         card: "0 4px 16px 0 rgba(26,95,122,0.07), 0 1.5px 8px 0 rgba(34,54,90,0.08)"
